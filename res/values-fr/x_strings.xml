@@ -24,13 +24,13 @@
     <string name="connected_tws_device_saved_title">Earbuds sauvegardés</string>
 
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Trouvez le capteur d'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre tablette.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Trouvez le capteur d'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre appareil.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Trouvez le capteur d'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre téléphone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Trouvez le capteur d\'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre tablette.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Trouvez le capteur d\'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre appareil.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Trouvez le capteur d\'empreintes digitales <xliff:g id="sensor_location">%1$s</xliff:g> de votre téléphone.</string>
 
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">à l'arrière</string>
-    <string name="security_settings_fingerprint_sensor_location_front">à l'avant</string>
+    <string name="security_settings_fingerprint_sensor_location_back">à l\'arrière</string>
+    <string name="security_settings_fingerprint_sensor_location_front">à l\'avant</string>
     <string name="security_settings_fingerprint_sensor_location_left">sur le côté gauche</string>
     <string name="security_settings_fingerprint_sensor_location_right">sur le côté droit</string>
 
@@ -52,9 +52,9 @@
     <string name="rom_version_default">Inconnu</string>
 
     <!-- Hardware info -->
-    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <!-- Label for device\'s hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Plateforme</string>
-    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- Label for device\'s hardware ram size [CHAR LIMIT=40] -->
     <string name="total_ram">Mémoire vive totale</string>
 
     <!-- App details: open play store link if app is user installed -->
@@ -64,7 +64,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">Son de capture d'écran</string>
+    <string name="screenshot_sound_title">Son de capture d\'écran</string>
 
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Appuyer pour afficher infos</string>
@@ -74,7 +74,7 @@
 
     <!-- Battery health -->
     <string name="battery_health_title">État de la batterie</string>
-    <string name="battery_health_summary">Surveiller l'état de la batterie de votre appareil</string>
+    <string name="battery_health_summary">Surveiller l\'état de la batterie de votre appareil</string>
     <string name="current_battery_capacity">Capacité actuelle de la batterie</string>
     <string name="current_battery_capacity_summary">Capacité actuellement mesurée par le noyau</string>
     <string name="designed_battery_capacity">Capacité de conception</string>
@@ -92,26 +92,26 @@
     <string name="smart_charging_title">Charge intelligente</string>
     <string name="smart_charging_summary">Définir un taux de charge maximal</string>
     <string name="smart_charging_switch_title">Utiliser la charge intelligente</string>
-    <string name="smart_charging_level_title">Niveau d'arrêt de charge</string>
+    <string name="smart_charging_level_title">Niveau d\'arrêt de charge</string>
     <string name="smart_charging_resume_level_title">Niveau de reprise de charge</string>
     <string name="smart_charging_reset_stats_title">Réinitialiser statistiques de batterie</string>
-    <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de batterie lorsque le niveau de charge défini par l'utilisateur est atteint</string>
-    <string name="smart_charging_footer">La charge intelligente permet de définir un taux de charge maximal afin d'étendre la durée de vie de la batterie</string>
+    <string name="smart_charging_reset_stats_summary">Réinitialiser les statistiques de batterie lorsque le niveau de charge défini par l\'utilisateur est atteint</string>
+    <string name="smart_charging_footer">La charge intelligente permet de définir un taux de charge maximal afin d\'étendre la durée de vie de la batterie</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Réinitialiser les statistiques</string>
-    <string name="battery_stats_message">L'historique d'utilisation de la batterie va être réinitialisé</string>
+    <string name="battery_stats_message">L\'historique d\'utilisation de la batterie va être réinitialisé</string>
 
     <!-- Android debugging as root -->
     <string name="adb_enable_root">Débogage en tant que root</string>
-    <string name="adb_enable_summary_root">Autoriser le débogage USB à s'exécuter en tant que root</string>
+    <string name="adb_enable_summary_root">Autoriser le débogage USB à s\'exécuter en tant que root</string>
 
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Lier les volumes de sonnerie et de notification</string>
 
     <!-- Scramble pin -->
     <string name="unlock_scramble_pin_layout_title">Mélanger les touches</string>
-    <string name="unlock_scramble_pin_layout_summary">Mélanger les touches du clavier PIN lors du déverrouillage de l'appareil</string>
+    <string name="unlock_scramble_pin_layout_summary">Mélanger les touches du clavier PIN lors du déverrouillage de l\'appareil</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
@@ -133,8 +133,8 @@
 
     <!-- Custom light color -->
     <string name="custom_light_title">Couleur de LED</string>
-    <string name="custom_light_on_time_title">Durée d'allumage de la LED pendant le clignotement (ms)</string>
-    <string name="custom_light_off_time_title">Durée d'extinction de la LED pendant le clignotement (ms)"</string>
+    <string name="custom_light_on_time_title">Durée d\'allumage de la LED pendant le clignotement (ms)</string>
+    <string name="custom_light_off_time_title">Durée d\'extinction de la LED pendant le clignotement (ms)"</string>
     <string name="value_equals_default">def</string>
 
     <!-- Lock screen pattern size -->
@@ -173,14 +173,14 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Volume de sonnerie croissant</string>
     <string name="increasing_ring_min_volume_title">Volume initial</string>
-    <string name="increasing_ring_ramp_up_time_title">Durée d'augmentation</string>
+    <string name="increasing_ring_ramp_up_time_title">Durée d\'augmentation</string>
 
     <!-- Adaptive Playback -->
     <string name="adaptive_playback_screen_title">Lecture adaptative</string>
     <string name="adaptive_playback_disabled_summary">Désactivée</string>
-    <string name="adaptive_playback_timeout_title">Utiliser un délai d'expiration de</string>
-    <string name="adaptive_playback_timeout_none">Pas d'expiration</string>
-    <string name="adaptive_playback_timeout_none_summary">Activée (pas d'expiration)</string>
+    <string name="adaptive_playback_timeout_title">Utiliser un délai d\'expiration de</string>
+    <string name="adaptive_playback_timeout_none">Pas d\'expiration</string>
+    <string name="adaptive_playback_timeout_none_summary">Activée (pas d\'expiration)</string>
     <string name="adaptive_playback_timeout_30_secs">30 secondes</string>
     <string name="adaptive_playback_timeout_30_secs_summary">Activée (30 secondes)</string>
     <string name="adaptive_playback_timeout_1_min">1 minute</string>
@@ -201,8 +201,8 @@
     <!-- Smart cutoff -->
     <string name="smart_cutoff_title">Arrêt de charge intelligent</string>
     <string name="smart_cutoff_summary">Définir température maximale</string>
-    <string name="smart_cutoff_switch_title">Utiliser l'arrêt de charge intelligent</string>
-    <string name="smart_cutoff_level_title">Température d'arrêt de charge</string>
+    <string name="smart_cutoff_switch_title">Utiliser l\'arrêt de charge intelligent</string>
+    <string name="smart_cutoff_level_title">Température d\'arrêt de charge</string>
     <string name="smart_cutoff_resume_level_title">Température de reprise de charge</string>
 
     <!-- SBC HD (Dual Channel) priority -->
@@ -211,8 +211,8 @@
 
     <!-- Power Button Fingerprint -->
     <string name="fingerprint_power_button_press_title">Appuyer pour déverrouiller</string>
-    <string name="fingerprint_power_button_press_off_summary">Toucher le bouton marche-arrêt pour déverrouiller avec l'empreinte digitale lorsque l'écran est éteint</string>
-    <string name="fingerprint_power_button_press_on_summary">Bien appuyer sur le bouton marche-arrêt pour déverrouiller avec l'empreinte digitale lorsque l'écran est éteint</string>
+    <string name="fingerprint_power_button_press_off_summary">Toucher le bouton marche-arrêt pour déverrouiller avec l\'empreinte digitale lorsque l\'écran est éteint</string>
+    <string name="fingerprint_power_button_press_on_summary">Bien appuyer sur le bouton marche-arrêt pour déverrouiller avec l\'empreinte digitale lorsque l\'écran est éteint</string>
 
     <!-- Face Unlock -->
     <string name="security_settings_face_unlock_redo_face_scan_summary">Supprimer le scan de visage existant et faire un nouveau scan</string>
@@ -222,23 +222,23 @@
     <string name="face_redo_warning_msg">Voulez-vous supprimer le scan actuel du visage et en refaire un nouveau ?</string>
 
     <!-- App Lock -->
-    <string name="applock_title">Verrouillage d'applications</string>
+    <string name="applock_title">Verrouillage d\'applications</string>
     <string name="applock_locked">Verrouillé</string>
     <string name="applock_unlocked">Déverrouillé</string>
     <string name="applock_locked_apps">Applications verrouillées</string>
     <string name="applock_unlocked_apps">Applications déverrouillées</string>
-    <string name="applock_lock_after_title">Verrouiller l'application après</string>
+    <string name="applock_lock_after_title">Verrouiller l\'application après</string>
     <string name="applock_lock_after_instantly">Immédiatement</string>
     <string name="applock_lock_after_15_seconds">15 secondes</string>
-    <string name="applock_lock_after_screen_off">A l'extinction de l'écran</string> 
-    <string name="applock_lock_after_summary">L'application se verrouillera après le délai défini</string>
-    <string name="applock_lock_after_instantly_summary">L'application se verrouillera immédiatement après la fermeture</string>
-    <string name="applock_lock_after_15_seconds_summary">L'application se verrouillera 15 secondes après la fermeture</string>
-    <string name="applock_lock_after_screen_off_summary">L'application se verrouillera à l'extinction de l'écran</string>
-    <string name="applock_notification_info">Vous pouvez afficher/cacher le contenu des notifications par application en cliquant sur l'icône de notification affichée sur la préférence de chaque application verrouillée</string>
+    <string name="applock_lock_after_screen_off">A l\'extinction de l\'écran</string> 
+    <string name="applock_lock_after_summary">L\'application se verrouillera après le délai défini</string>
+    <string name="applock_lock_after_instantly_summary">L\'application se verrouillera immédiatement après la fermeture</string>
+    <string name="applock_lock_after_15_seconds_summary">L\'application se verrouillera 15 secondes après la fermeture</string>
+    <string name="applock_lock_after_screen_off_summary">L\'application se verrouillera à l\'extinction de l\'écran</string>
+    <string name="applock_notification_info">Vous pouvez afficher/cacher le contenu des notifications par application en cliquant sur l\'icône de notification affichée sur la préférence de chaque application verrouillée</string>
     <string name="applock_show_notif">Affichage du contenu des notifications</string>
     <string name="applock_hide_notif">Contenu des notifications cahé</string>
-    <string name="applock_setup">Paramétrer le verrouillage d'applications</string>
+    <string name="applock_setup">Paramétrer le verrouillage d\'applications</string>
     <string name="applock_overlay_summary">Cette fonctionnalité est indisponible car cette application est verrouillée</string>
     <plurals name="applock_summary">
         <item quantity="one">1 application verrouillée</item>
@@ -263,18 +263,18 @@
 
     <!-- Back Gestures -->
     <string name="smallest_tick_label">Désactivé</string>
-    <string name="greatest_tick_label">Moitié d'écran</string>
+    <string name="greatest_tick_label">Moitié d\'écran</string>
     <string name="gesture_back_deadzone_label">Zone morte</string>
-    <string name="back_sensitivity_dialog_message_cust">\nUtiliser les première et deuxième barres de réglage pour configurer la sensibilité du geste retour, la dernière pour définir une zone morte en haut de l'écran où le geste ne peut être effectué, pour éviter des conflits avec les gestes des applications.</string>
+    <string name="back_sensitivity_dialog_message_cust">\nUtiliser les première et deuxième barres de réglage pour configurer la sensibilité du geste retour, la dernière pour définir une zone morte en haut de l\'écran où le geste ne peut être effectué, pour éviter des conflits avec les gestes des applications.</string>
 
     <!-- Back gesture height -->
-    <string name="back_height_low_label">Tout l'écran</string>
-    <string name="back_height_high_label">Bas de l'écran</string>
+    <string name="back_height_low_label">Tout l\'écran</string>
+    <string name="back_height_high_label">Bas de l\'écran</string>
     <string name="back_options_dialog_title">Options</string>
-    <string name="back_height_message">Hauteur d'écran utilisée comme zone touchable pour le geste retour.</string>
+    <string name="back_height_message">Hauteur d\'écran utilisée comme zone touchable pour le geste retour.</string>
 
     <!-- Custom actions -->
-    <string name="action_nothing">Pas d'action</string>
+    <string name="action_nothing">Pas d\'action</string>
     <string name="action_menu">Menu</string>
     <string name="action_app_switch">Applications récentes</string>
     <string name="action_search">Assistant</string>
@@ -285,33 +285,33 @@
     <string name="action_flashlight">Lampe torche</string>
     <string name="action_clear_notifications">Effacer les notifications</string>
     <string name="action_volume_panel">Panneau de volume</string>
-    <string name="action_screen_off">Éteindre l'écran</string>
+    <string name="action_screen_off">Éteindre l\'écran</string>
     <string name="action_notifications">Notifications</string>
     <string name="action_power_menu">Menu marche-arrêt</string>
-    <string name="action_screenshot">Capture d'écran</string>
+    <string name="action_screenshot">Capture d\'écran</string>
     <string name="action_qs_panel">Réglages rapides</string>
     <string name="action_app_action">Application</string>
     <string name="action_ringer_modes">Modes de sonnerie</string>
-    <string name="kill_app">Arrêter l'application en avant-plan</string>
-    <string name="recent_app_toggle">Passer à l'application récente</string>
-    <string name="action_partial_screenshot">Capture d'écran partielle</string>
+    <string name="kill_app">Arrêter l\'application en avant-plan</string>
+    <string name="recent_app_toggle">Passer à l\'application récente</string>
+    <string name="action_partial_screenshot">Capture d\'écran partielle</string>
 
     <!-- Long swipe gestures -->
     <string name="navbar_gesture_tweaks_pref_title">Options avancées de gestes</string>
     <string name="navbar_gesture_tweaks_pref_summary">Personnaliser les gestes et définir des actions personnalisées</string>
     <string name="navbar_gesture_tweaks_cat_title">Avancé</string>
-    <string name="swipe_app_select_summary">Sélectionner une application à lancer avec l'action de pression</string>
-    <string name="long_back_swipe_timeout_title">Durée d'expiration pour action de glissement long</string>
+    <string name="swipe_app_select_summary">Sélectionner une application à lancer avec l\'action de pression</string>
+    <string name="long_back_swipe_timeout_title">Durée d\'expiration pour action de glissement long</string>
     <string name="left_swipe_actions_title">Action de glissement long vers la gauche</string>
-    <string name="left_swipe_app_action_title">Sélectionner l'application pour glissement long vers la gauche</string>
+    <string name="left_swipe_app_action_title">Sélectionner l\'application pour glissement long vers la gauche</string>
     <string name="right_swipe_actions_title">Action de glissement long vers la droite</string>
-    <string name="right_swipe_app_action_title">Sélectionner l'application pour glissement long vers la droite</string>
+    <string name="right_swipe_app_action_title">Sélectionner l\'application pour glissement long vers la droite</string>
     <string name="left_vertical_swipe_actions_title">Action de glissement vertical gauche en L</string>
-    <string name="left_vertical_swipe_app_action_title">Sélectionner l'application pour glissement vertical gauche en L</string>
+    <string name="left_vertical_swipe_app_action_title">Sélectionner l\'application pour glissement vertical gauche en L</string>
     <string name="right_vertical_swipe_actions_title">Action de glissement vertical droit en L</string>
-    <string name="right_vertical_swipe_app_action_title">Sélectionner l'application pour glissement vertical droit en L</string>
-    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité particulière pour cette action, appuyer longuement sur une application dans le sélecteur d'applications.\n\nSi le lanceur d'applications s'affiche, faire le glissement tout en bas de l'écran pour déclencher l'action.</string>
+    <string name="right_vertical_swipe_app_action_title">Sélectionner l\'application pour glissement vertical droit en L</string>
+    <string name="gesture_nav_tweaks_footer_info">Pour choisir une activité particulière pour cette action, appuyer longuement sur une application dans le sélecteur d\'applications.\n\nSi le lanceur d\'applications s\'affiche, faire le glissement tout en bas de l\'écran pour déclencher l\'action.</string>
     <string name="back_swipe_extended_title">Action de glissement étendu</string>
-    <string name="back_swipe_extended_summary">Déclencher l'action lors d'un glissement étendu (plus de la moitié de l'écran), ou d'un glissement en L (assez long verticalement)</string>
+    <string name="back_swipe_extended_summary">Déclencher l\'action lors d\'un glissement étendu (plus de la moitié de l\'écran), ou d\'un glissement en L (assez long verticalement)</string>
 
 </resources>
