@@ -25,6 +25,7 @@ import com.android.settings.development.OverlayCategoryPreferenceController;
 import com.android.settings.display.BrightnessLevelPreferenceController;
 import com.android.settings.display.CameraGesturePreferenceController;
 import com.android.settings.display.LiftToWakePreferenceController;
+import com.android.settings.display.PocketJudgePreferenceController;
 import com.android.settings.display.NightDisplayPreferenceController;
 import com.android.settings.display.NightModePreferenceController;
 import com.android.settings.display.ScreenSaverPreferenceController;
@@ -32,6 +33,7 @@ import com.android.settings.display.ShowOperatorNamePreferenceController;
 import com.android.settings.display.TapToWakePreferenceController;
 import com.android.settings.display.EnableBlursPreferenceController;
 import com.android.settings.display.ThemePreferenceController;
+import com.android.settings.display.TimeoutLockscreenPreferenceController;
 import com.android.settings.display.TimeoutPreferenceController;
 import com.android.settings.display.VrDisplayPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -46,6 +48,7 @@ import java.util.List;
 public class DisplaySettings extends DashboardFragment {
     private static final String TAG = "DisplaySettings";
 
+    private static final String KEY_LOCKSCREEN_TIMEOUT = "lockscreen_timeout";
     private static final String KEY_SCREEN_TIMEOUT = "screen_timeout";
 
     @Override
@@ -83,12 +86,14 @@ public class DisplaySettings extends DashboardFragment {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
         controllers.add(new CameraGesturePreferenceController(context));
         controllers.add(new LiftToWakePreferenceController(context));
+        controllers.add(new PocketJudgePreferenceController(context));
         controllers.add(new NightDisplayPreferenceController(context));
         controllers.add(new NightModePreferenceController(context));
         controllers.add(new ScreenSaverPreferenceController(context));
         controllers.add(new TapToWakePreferenceController(context));
         controllers.add(new EnableBlursPreferenceController(context));
         controllers.add(new TimeoutPreferenceController(context, KEY_SCREEN_TIMEOUT));
+        controllers.add(new TimeoutLockscreenPreferenceController(context, KEY_LOCKSCREEN_TIMEOUT));
         controllers.add(new VrDisplayPreferenceController(context));
         controllers.add(new ShowOperatorNamePreferenceController(context));
         controllers.add(new ThemePreferenceController(context));

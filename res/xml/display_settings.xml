@@ -65,6 +65,13 @@
         android:entryValues="@array/screen_timeout_values"
         settings:keywords="@string/keywords_screen_timeout" />
 
+    <com.xtended.support.preferences.SystemSettingListPreference
+        android:key="lockscreen_timeout"
+        android:title="@string/lockscreen_timeout_title"
+        android:entries="@array/screen_timeout_entries"
+        android:entryValues="@array/screen_timeout_values"
+        android:defaultValue="15000" />
+
     <Preference
         android:key="adaptive_sleep_entry"
         android:title="@string/adaptive_sleep_title"
@@ -134,6 +141,11 @@
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />
 
+     <SwitchPreference
+        android:key="pocket_judge"
+        android:title="@string/proximity_wake_title"
+        android:summary="@string/proximity_wake_summary" />
+
     <SwitchPreference
         android:key="enable_blurs_on_windows"
         android:title="@string/enable_blurs_on_windows_title"
@@ -152,6 +164,12 @@
     <PreferenceCategory
         android:key="density_category"
         android:title="@string/density_category">
+
+        <com.xtended.support.preferences.SystemSettingSwitchPreference
+            android:key="use_new_searchbar"
+            android:title="@string/search_bar_style_title"
+            android:summary="@string/search_bar_style_summary"
+            android:defaultValue="false" />
 
         <Preference
             android:key="font_size"

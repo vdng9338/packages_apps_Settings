@@ -17,4 +17,13 @@
 <resources>
     <!-- Fingerprint -->
     <dimen name="fingerprint_find_sensor_padding_top">16dp</dimen>
+
+    <dimen name="picker_circle_preview_size">26dp</dimen>
+    <dimen name="alert_dialog_padding_material">20dp</dimen>
+
+    <!-- The Team -->
+    <dimen name="team_recycler_height">500dp</dimen>
+
+    <!-- ProgressCard -->
+    <dimen name="progress_card_horizontal_padding">16dp</dimen>
 </resources>

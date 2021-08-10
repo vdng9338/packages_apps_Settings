@@ -93,6 +93,14 @@
         android:order="-140"
         settings:controller="com.android.settings.notification.AlarmVolumePreferenceController"/>
 
+    <!-- Increasing ring volume -->
+    <com.android.settings.notification.IncreasingRingVolumePreference
+        android:key="increasing_ring_volume"
+        android:icon="@drawable/ring_notif_increasing"
+        android:dependency="increasing_ring"
+        android:order="-139"
+        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
+
     <!-- Link ringtone and notification volumes -->
     <com.xtended.support.preferences.SecureSettingSwitchPreference
         android:key="volume_link_notification"
@@ -109,14 +117,6 @@
         android:order="-136"
         settings:controller="com.android.settings.notification.IncreasingRingPreferenceController" />
 
-    <!-- Increasing ring volume -->
-    <com.android.settings.notification.IncreasingRingVolumePreference
-        android:key="increasing_ring_volume"
-        android:icon="@drawable/ring_notif_increasing"
-        android:dependency="increasing_ring"
-        android:order="-135"
-        settings:controller="com.android.settings.notification.IncreasingRingVolumePreferenceController" />
-
     <!-- Also vibrate for calls -->
     <Preference
         android:fragment="com.android.settings.sound.VibrateForCallsPreferenceFragment"
@@ -132,47 +132,16 @@
         android:title="@string/vibration_pattern_title"
         android:order="-125"
         android:entries="@array/vibration_pattern_entries"
-        android:entryValues="@array/vibration_pattern_values"
-        android:dependency="vibrate_for_calls"/>
+        android:entryValues="@array/vibration_pattern_values"/>
 
-    <!-- Custom ringtone vibration pattern category -->
-    <PreferenceCategory
+    <!-- Custom ringtone vibration pattern preference -->
+    <Preference
         android:key="custom_vibration_pattern"
         android:title="@string/custom_vibration_pattern_title"
+        android:summary="@string/custom_vibration_pattern_summary"
         android:order="-124"
-        android:visibility="gone">
-
-        <!-- Custom ringtone vibration pattern 1 -->
-        <com.xtended.support.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern1"
-            android:order="-123"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-        <!-- Custom ringtone vibration pattern 2 -->
-        <com.xtended.support.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern2"
-            android:order="-122"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-        <!-- Custom ringtone vibration pattern 3 -->
-        <com.xtended.support.preferences.CustomSeekBarPreference
-            android:key="custom_vibration_pattern3"
-            android:order="-121"
-            android:max="1000"
-            settings:min="0"
-            settings:interval="100"
-            settings:units="ms"
-            android:dependency="vibrate_for_calls"/>
-
-    </PreferenceCategory>
+        android:fragment="com.android.settings.sound.CustomVibrationPreferenceFragment"
+        android:visibility="gone"/>
 
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
@@ -193,12 +162,12 @@
         settings:controller="com.android.settings.sound.MediaControlsParentPreferenceController"
         settings:keywords="@string/keywords_media_controls"/>
 
-    <Preference
+    <!--Preference
         android:key="gesture_prevent_ringing_sound"
         android:title="@string/gesture_prevent_ringing_sound_title"
         android:order="-107"
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
-        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
+        settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/-->
 
     <!-- Phone ringtone -->
     <com.android.settings.DefaultRingtonePreference

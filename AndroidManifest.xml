@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:androidprv="http://schemas.android.com/apk/prv/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
         package="com.android.settings"
         coreApp="true"
         android:sharedUserId="android.uid.system">
@@ -128,7 +129,8 @@
             android:usesCleartextTraffic="true"
             android:defaultToDeviceProtectedStorage="true"
             android:directBootAware="true"
-            android:appComponentFactory="androidx.core.app.CoreComponentFactory">
+            android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+            tools:replace="android:appComponentFactory">
 
         <uses-library android:name="org.apache.http.legacy" />
         <!-- Settings -->
@@ -3568,6 +3570,33 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.xtended.fragments.GamingMode" />
+        </activity>
+
+        <!-- Xtended Team dialog -->
+        <activity android:name="com.android.settings.xtended.helpers.TeamActivity"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:theme="@style/TeamDialog"
+                  android:label="@string/dialog_team_title" >
+                  <intent-filter>  
+                  		<action android:name="com.android.settings.xtended.helpers.TeamActivity"/>  
+                		<category android:name="android.intent.category.DEFAULT" />  
+            	  </intent-filter>
+            	  <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                  android:value="com.android.settings.xtended.helpers.TeamActivity" />
+        </activity>
+        <!-- Thanks & Credits dialog -->
+        <activity android:name="com.android.settings.xtended.helpers.ThanksActivity"
+                  android:taskAffinity=""
+                  android:parentActivityName="Settings"
+                  android:theme="@style/TeamDialog"
+                  android:label="@string/hail_to_teams" >
+                  <intent-filter>
+                                <action android:name="com.android.settings.xtended.helpers.ThanksActivity"/>
+                                <category android:name="android.intent.category.DEFAULT" />
+                  </intent-filter>
+                  <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                  android:value="com.android.settings.xtended.helpers.ThanksActivity" />
         </activity>
     </application>
 </manifest>
